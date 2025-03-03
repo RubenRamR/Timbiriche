@@ -17,11 +17,10 @@ public class FrmRegistro extends javax.swing.JFrame {
      */
     public FrmRegistro() {
         initComponents();
+        this.setExtendedState(this.MAXIMIZED_BOTH);
     }
 
     public void cargarFrm() {
-        setResizable(true);
-        setLocationRelativeTo(null);
     }
 
     /**
