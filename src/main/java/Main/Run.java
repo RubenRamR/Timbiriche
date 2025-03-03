@@ -4,6 +4,8 @@
 
 package Main;
 
+import View.FrmRegistro;
+
 /**
  *
  * @author rramirez
@@ -11,6 +13,7 @@ package Main;
 public class Run{
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        FrmRegistro fr = new FrmRegistro();
+        fr.setVisible(true);
     }
 }
