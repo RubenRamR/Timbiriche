@@ -52,7 +52,6 @@ public class FrmRegistro extends javax.swing.JFrame {
         LblRegistro.setText("Registro");
         JPaneRegistro.add(LblRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 50, 240, 100));
 
-        TxtUsuario.setBackground(new java.awt.Color(255, 255, 255));
         TxtUsuario.setFont(new java.awt.Font("Segoe UI", 0, 30)); // NOI18N
         TxtUsuario.setForeground(new java.awt.Color(153, 153, 153));
         TxtUsuario.setText("Usuario");
