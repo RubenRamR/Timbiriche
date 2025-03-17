@@ -33,10 +33,26 @@ public class FrmRegistro extends javax.swing.JFrame {
     private void initComponents() {
 
         JPaneRegistro = new javax.swing.JPanel();
+        LblRegistrar = new javax.swing.JLabel();
+        BtnRegistrar = new javax.swing.JButton();
+        BtnP10 = new javax.swing.JButton();
+        BtnP6 = new javax.swing.JButton();
+        BtnP2 = new javax.swing.JButton();
+        BtnP14 = new javax.swing.JButton();
+        BtnP16 = new javax.swing.JButton();
+        BtnP15 = new javax.swing.JButton();
+        BtnP13 = new javax.swing.JButton();
+        BtnP12 = new javax.swing.JButton();
+        BtnP11 = new javax.swing.JButton();
+        BtnP9 = new javax.swing.JButton();
+        BtnP8 = new javax.swing.JButton();
+        BtnP7 = new javax.swing.JButton();
+        BtnP5 = new javax.swing.JButton();
+        BtnP4 = new javax.swing.JButton();
+        BtnP3 = new javax.swing.JButton();
+        BtnP1 = new javax.swing.JButton();
         LblRegistro = new javax.swing.JLabel();
         TxtUsuario = new javax.swing.JTextField();
-        BtnRegistrarse = new javax.swing.JButton();
-        ÑblFoto = new javax.swing.JLabel();
         LblFondoReg = new javax.swing.JLabel();
         LblFondo = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
@@ -46,12 +62,171 @@ public class FrmRegistro extends javax.swing.JFrame {
         JPaneRegistro.setBackground(new java.awt.Color(153, 153, 153));
         JPaneRegistro.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        LblRegistrar.setFont(new java.awt.Font("Segoe UI", 1, 28)); // NOI18N
+        LblRegistrar.setForeground(new java.awt.Color(255, 255, 255));
+        LblRegistrar.setText("Registrar");
+        JPaneRegistro.add(LblRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 810, -1, -1));
+
+        BtnRegistrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Rectangle 4.png"))); // NOI18N
+        BtnRegistrar.setContentAreaFilled(false);
+        BtnRegistrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnRegistrarActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 790, 290, 80));
+
+        BtnP10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P10.png"))); // NOI18N
+        BtnP10.setContentAreaFilled(false);
+        BtnP10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP10ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP10, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 500, 100, -1));
+
+        BtnP6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P6.png"))); // NOI18N
+        BtnP6.setContentAreaFilled(false);
+        BtnP6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP6ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP6, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 400, 100, -1));
+
+        BtnP2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P2.png"))); // NOI18N
+        BtnP2.setContentAreaFilled(false);
+        BtnP2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP2ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP2, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 300, 100, -1));
+
+        BtnP14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P14.png"))); // NOI18N
+        BtnP14.setContentAreaFilled(false);
+        BtnP14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP14ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP14, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 600, 100, -1));
+
+        BtnP16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P16.png"))); // NOI18N
+        BtnP16.setContentAreaFilled(false);
+        BtnP16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP16ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 600, 100, -1));
+
+        BtnP15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P15.png"))); // NOI18N
+        BtnP15.setContentAreaFilled(false);
+        BtnP15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP15ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP15, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 600, 100, -1));
+
+        BtnP13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P13.png"))); // NOI18N
+        BtnP13.setContentAreaFilled(false);
+        BtnP13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP13ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP13, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 600, 100, -1));
+
+        BtnP12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P12.png"))); // NOI18N
+        BtnP12.setContentAreaFilled(false);
+        BtnP12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP12ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 500, 100, -1));
+
+        BtnP11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P11.png"))); // NOI18N
+        BtnP11.setContentAreaFilled(false);
+        BtnP11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP11ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP11, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 500, 100, -1));
+
+        BtnP9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P9.png"))); // NOI18N
+        BtnP9.setContentAreaFilled(false);
+        BtnP9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP9ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP9, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 500, 100, -1));
+
+        BtnP8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P8.png"))); // NOI18N
+        BtnP8.setContentAreaFilled(false);
+        BtnP8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP8ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 400, 100, -1));
+
+        BtnP7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P7.png"))); // NOI18N
+        BtnP7.setContentAreaFilled(false);
+        BtnP7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP7ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP7, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 400, 100, -1));
+
+        BtnP5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P5.png"))); // NOI18N
+        BtnP5.setContentAreaFilled(false);
+        BtnP5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP5ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP5, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 400, 100, -1));
+
+        BtnP4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P4.png"))); // NOI18N
+        BtnP4.setContentAreaFilled(false);
+        BtnP4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP4ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 300, 100, -1));
+
+        BtnP3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P3.png"))); // NOI18N
+        BtnP3.setContentAreaFilled(false);
+        BtnP3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP3ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP3, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 300, 100, -1));
+
+        BtnP1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/P1.png"))); // NOI18N
+        BtnP1.setContentAreaFilled(false);
+        BtnP1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnP1ActionPerformed(evt);
+            }
+        });
+        JPaneRegistro.add(BtnP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 300, 100, -1));
+
         LblRegistro.setBackground(new java.awt.Color(255, 255, 255));
         LblRegistro.setFont(new java.awt.Font("Segoe UI", 1, 60)); // NOI18N
         LblRegistro.setForeground(new java.awt.Color(255, 255, 255));
         LblRegistro.setText("Registro");
         JPaneRegistro.add(LblRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 50, 240, 100));
 
+        TxtUsuario.setBackground(new java.awt.Color(255, 255, 255));
         TxtUsuario.setFont(new java.awt.Font("Segoe UI", 0, 30)); // NOI18N
         TxtUsuario.setForeground(new java.awt.Color(153, 153, 153));
         TxtUsuario.setText("Usuario");
@@ -68,27 +243,14 @@ public class FrmRegistro extends javax.swing.JFrame {
         });
         JPaneRegistro.add(TxtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 170, 480, 70));
 
-        BtnRegistrarse.setBackground(new java.awt.Color(128, 30, 47));
-        BtnRegistrarse.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        BtnRegistrarse.setForeground(new java.awt.Color(255, 255, 255));
-        BtnRegistrarse.setText("Registrarse");
-        BtnRegistrarse.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnRegistrarseActionPerformed(evt);
-            }
-        });
-        JPaneRegistro.add(BtnRegistrarse, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 800, 250, 80));
-
-        ÑblFoto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons, perfil 1 (Provicional).png"))); // NOI18N
-        JPaneRegistro.add(ÑblFoto, new org.netbeans.lib.awtextra.AbsoluteConstraints(737, 300, 430, -1));
-
         LblFondoReg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Rectangle 5.png"))); // NOI18N
         LblFondoReg.setAlignmentY(0.0F);
         LblFondoReg.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         LblFondoReg.setPreferredSize(new java.awt.Dimension(623, 1000));
         JPaneRegistro.add(LblFondoReg, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 20, 630, 910));
 
-        LblFondo.setForeground(new java.awt.Color(255, 255, 255));
+        LblFondo.setBackground(new java.awt.Color(76, 76, 76));
+        LblFondo.setForeground(new java.awt.Color(68, 68, 68));
         LblFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/FondoReg1.1.png"))); // NOI18N
         LblFondo.setPreferredSize(new java.awt.Dimension(1920, 1080));
         JPaneRegistro.add(LblFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1920, 1080));
@@ -128,9 +290,73 @@ public class FrmRegistro extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_TxtUsuarioFocusLost
 
-    private void BtnRegistrarseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnRegistrarseActionPerformed
+    private void BtnP1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_BtnRegistrarseActionPerformed
+    }//GEN-LAST:event_BtnP1ActionPerformed
+
+    private void BtnP2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP2ActionPerformed
+
+    private void BtnP3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP3ActionPerformed
+
+    private void BtnP4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP4ActionPerformed
+
+    private void BtnP5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP5ActionPerformed
+
+    private void BtnP6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP6ActionPerformed
+
+    private void BtnP7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP7ActionPerformed
+
+    private void BtnP8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP8ActionPerformed
+
+    private void BtnP9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP9ActionPerformed
+
+    private void BtnP10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP10ActionPerformed
+
+    private void BtnP11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP11ActionPerformed
+
+    private void BtnP12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP12ActionPerformed
+
+    private void BtnP13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP13ActionPerformed
+
+    private void BtnP14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP14ActionPerformed
+
+    private void BtnP15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP15ActionPerformed
+
+    private void BtnP16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnP16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnP16ActionPerformed
+
+    private void BtnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnRegistrarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnRegistrarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -175,13 +401,29 @@ public class FrmRegistro extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BtnRegistrarse;
+    private javax.swing.JButton BtnP1;
+    private javax.swing.JButton BtnP10;
+    private javax.swing.JButton BtnP11;
+    private javax.swing.JButton BtnP12;
+    private javax.swing.JButton BtnP13;
+    private javax.swing.JButton BtnP14;
+    private javax.swing.JButton BtnP15;
+    private javax.swing.JButton BtnP16;
+    private javax.swing.JButton BtnP2;
+    private javax.swing.JButton BtnP3;
+    private javax.swing.JButton BtnP4;
+    private javax.swing.JButton BtnP5;
+    private javax.swing.JButton BtnP6;
+    private javax.swing.JButton BtnP7;
+    private javax.swing.JButton BtnP8;
+    private javax.swing.JButton BtnP9;
+    private javax.swing.JButton BtnRegistrar;
     private javax.swing.JPanel JPaneRegistro;
     private javax.swing.JLabel LblFondo;
     private javax.swing.JLabel LblFondoReg;
+    private javax.swing.JLabel LblRegistrar;
     private javax.swing.JLabel LblRegistro;
     private javax.swing.JTextField TxtUsuario;
     private javax.swing.JTextField jTextField1;
-    private javax.swing.JLabel ÑblFoto;
     // End of variables declaration//GEN-END:variables
 }
